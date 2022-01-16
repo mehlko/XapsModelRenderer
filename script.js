@@ -25,7 +25,7 @@ var exampleModel = {
   ],
 };
 
-var highlightIds = ['Sensor Assembly', 'Screw'];
+var highlightIds = ['Sensor Assembly', 'Screwer Force'];
 
 function render(model, highlightIds) {
   var container = document.createElement('div');
