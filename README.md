@@ -1,15 +1,21 @@
 # ModelRenderer
 
 This project renders a given model with.
-There are 2 wys to render a model: static (html and css) or dynamic (javascript, html and css).
+There are 2 wys to render a model: pure **HTML and CSS** or **Javascript, HTML and CSS**.
 Static means there is not Javascript required to render
 
-# structure
+# Example
+
+[https://stackblitz.com/edit/web-platform-wqmzhh](https://stackblitz.com/edit/web-platform-wqmzhh)
+
+
+# Structure
 
 The model has the following structure:
 A Process contains a name, inputs (product), outputs (product), resources, measurements and constraints.
 
-# html + css
+# HTML + CSS
+**Preferred Method: Easier to use and integrate**
 
 Below is an example for the use of the htm and css version.
 In your html document, you add the following html structure (e.g. divs) with the shown classes: process, name, inputs, outputs, product, resources, resource, measurements, measurement, constraints, constraint.
@@ -42,7 +48,7 @@ In your html document, you add the following html structure (e.g. divs) with the
     </div>
 ```
 
-# javascript + html + css
+# Javascript + HTML + CSS
 
 Create a JSON variable for the model you want to render:
 
@@ -92,18 +98,3 @@ var renderedModel = render(exampleModel, highlightIds);
 container.appendChild(renderedModel);
 ```
 
-# Example
-
-[https://stackblitz.com/edit/web-platform-wqmzhh](https://stackblitz.com/edit/web-platform-wqmzhh)
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
