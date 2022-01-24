@@ -13,11 +13,11 @@ Try live Demo: [https://stackblitz.com/edit/web-platform-wqmzhh](https://stackbl
 
 Example without highlighting:
 
-<img src="../master/images/normal.png" height="300">
+<img src="../master/images/normal.png" height="400">
 
 Example with highlighting:
 
-<img src="../master/images/highlight.png" height="300">
+<img src="../master/images/highlight.png" height="400">
 
 # Production Line Structure
 
