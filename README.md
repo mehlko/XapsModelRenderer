@@ -1,18 +1,21 @@
 # Production Line Renderer
 
 This project renders a given production line structre.
-There are 2 ways to use this project: pure **HTML and CSS** or **Javascript, HTML and CSS**.
-Static means there is not Javascript required to render
+
+There are 2 ways to use this project:
+
+1. Pure **HTML and CSS** or
+2. **Javascript, HTML and CSS**.
 
 # Example
 
 [https://stackblitz.com/edit/web-platform-wqmzhh](https://stackblitz.com/edit/web-platform-wqmzhh)
 
 Example without highlighting:
-<img src="../master/images/normal.png" height="500">
+<img src="../master/images/normal.png" height="300">
 
 Example with highlighting:
-<img src="../master/images/highlight.png" height="500">
+<img src="../master/images/highlight.png" height="300">
 
 # Production Line Structure
 
