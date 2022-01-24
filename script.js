@@ -146,6 +146,6 @@ function renderElement(id, className, text, highlightIds) {
   return element;
 }
 
-var container = document.getElementById('dynamic');
+var container = document.getElementById('container');
 var renderedModel = render(exampleModel, highlightIds);
 container.appendChild(renderedModel);

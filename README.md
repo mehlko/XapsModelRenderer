@@ -43,6 +43,10 @@ In your html document, you add the following html structure (e.g. divs) with the
 
 
 # javascript + html + css
+Create a container (e.g. div) with "dynamic" as id.
+Then call the *function render(model, highlightIds)*
+
+
 
 
 # Try it
