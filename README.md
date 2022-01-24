@@ -12,9 +12,11 @@ There are 2 ways to use this project:
 [https://stackblitz.com/edit/web-platform-wqmzhh](https://stackblitz.com/edit/web-platform-wqmzhh)
 
 Example without highlighting:
+
 <img src="../master/images/normal.png" height="300">
 
 Example with highlighting:
+
 <img src="../master/images/highlight.png" height="300">
 
 # Production Line Structure
