@@ -17,6 +17,9 @@ A Process contains a name, inputs (product), outputs (product), resources, measu
 # HTML + CSS
 **Preferred Method: Easier to use and integrate**
 
+[I'm a relative reference to a repository file](../blob/master/style.css)
+
+
 Below is an example for the use of the htm and css version.
 In your html document, you add the following html structure (e.g. divs) with the shown classes: process, name, inputs, outputs, product, resources, resource, measurements, measurement, constraints, constraint.
 
