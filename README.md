@@ -35,11 +35,7 @@ A **process** contains a **name**, **inputs**, **outputs**, **product** **resour
    An example is shown below
 
 ```
-<html>
-  <head>
-    <meta charset="UTF-8" />
-  </head>
-  <body>
+
   <div class="process highlight">
     <div class="name">Sensor Assembly</div>
     <div class="inputs">
