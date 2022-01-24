@@ -8,7 +8,7 @@ Static means there is not Javascript required to render
 
 [https://stackblitz.com/edit/web-platform-wqmzhh](https://stackblitz.com/edit/web-platform-wqmzhh)
 
-<img src="../master/images/highlight.png" height="945">
+<img src="../master/images/highlight.png" height="400">
 
 # Production Line Structure
 
