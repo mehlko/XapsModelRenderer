@@ -8,6 +8,8 @@ Static means there is not Javascript required to render
 
 [https://stackblitz.com/edit/web-platform-wqmzhh](https://stackblitz.com/edit/web-platform-wqmzhh)
 
+![Example](../master/images/highlight.png 'Example')
+
 # Production Line Structure
 
 The prodcution line has the following structure:
