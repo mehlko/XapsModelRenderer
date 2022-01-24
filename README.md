@@ -46,6 +46,7 @@ In your html document, you add the following html structure (e.g. divs) with the
 
 
 Create a JSON variable for the model you want to render:
+
 ``
 var exampleModel = {
   processes: [
