@@ -9,7 +9,7 @@ There are 2 ways to use this project:
 
 # Example
 
-Try live: [https://stackblitz.com/edit/web-platform-wqmzhh](https://stackblitz.com/edit/web-platform-wqmzhh)
+Try live Demo: [https://stackblitz.com/edit/web-platform-wqmzhh](https://stackblitz.com/edit/web-platform-wqmzhh)
 
 Example without highlighting:
 
