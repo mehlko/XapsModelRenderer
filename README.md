@@ -14,7 +14,7 @@ A Process contains a name, inputs (product), outputs (product), resources, measu
 Below is an example for the use of the htm and css version.
 In your html document, you add the following html structure (e.g. divs) with the shown classes: process, name, inputs, outputs, product, resources, resource, measurements, measurement, constraints, constraint.
 
-`
+``
 
   <div class="process highlight">
         <div class="name">Sensor Assembly</div>
@@ -40,7 +40,7 @@ In your html document, you add the following html structure (e.g. divs) with the
         </div>
       </div>
     </div>
-´
+´´
 
 # javascript + html + css
 
