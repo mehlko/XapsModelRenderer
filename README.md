@@ -10,6 +10,8 @@ Static means there is not Javascript required to render
 
 ![Example](../master/images/highlight.png 'Example')
 
+<img src="../master/images/highlight.png" height="945">
+
 # Production Line Structure
 
 The prodcution line has the following structure:
@@ -22,7 +24,8 @@ A **process** contains a **name**, **inputs**, **outputs**, **product** **resour
 1. Integrate [style.css](../master/style.css) to your HTML document.
    `<link rel="stylesheet" type="text/css" href="style.css" />`
 2. Add the following html structure (e.g. divs) with the shown classes: **process**, **name**, **inputs**, **outputs**, **product** **resources**, **resources**, **measurements**, **measurements**, **constraints** and **constraint**.
-   Below is an example for the use of the htm and css version.
+   Elements with the class **highlight** will be highlighted.
+   An example is shown below
 
 ```
 <html>
@@ -57,7 +60,9 @@ A **process** contains a **name**, **inputs**, **outputs**, **product** **resour
 
 # Javascript + HTML + CSS
 
-Create a JSON variable for the model you want to render:
+1. Integrate [style.css](../master/style.css) to your HTML document.
+   `<link rel="stylesheet" type="text/css" href="style.css" />`
+2. Create a JSON variable for the model you want to render:
 
 ```
 var exampleModel = {
@@ -84,20 +89,18 @@ var exampleModel = {
     },
   ],
 };
-
-var highlightIds = ['Sensor Assembly', 'Screwer Force'];
 ```
 
-Create an array with ids corresponding to the ids on the model above.
+3. Create an array with ids corresponding to the ids on the model above.
 
 ```
 var highlightIds = ['Sensor Assembly', 'Screwer Force'];
 ```
 
-Create a container (e.g. div) with "container" as id.
-Then call the function **render(model, highlightIds)** and add the result to the container element.
-
-Example given below
+4. Create a container (e.g. div) with "container" as id.
+   `<div id="container"></div>`
+5. Then call the function **render(model, highlightIds)** and add the result to the container element.
+   Example given below:
 
 ```
 var container = document.getElementById('container');
