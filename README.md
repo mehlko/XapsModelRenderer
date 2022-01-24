@@ -76,9 +76,7 @@ constraints: [{ name: 'Max Screwer Force', id: 'Max Screwer Force' }],
 
 Create an array with ids corresponding to the ids on the model above.
 
-```
-var highlightIds = ['Sensor Assembly', 'Screwer Force'];
-´´´
+``var highlightIds = ['Sensor Assembly', 'Screwer Force'];´´
 
 Create a container (e.g. div) with "container" as id.
 Then call the function **render(model, highlightIds)** and add the result to the container element.
@@ -92,6 +90,8 @@ container.appendChild(renderedModel);
 # Try it
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-wqmzhh)
+
+```
 
 ```
 
