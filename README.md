@@ -46,33 +46,34 @@ In your html document, you add the following html structure (e.g. divs) with the
 
 
 Create a JSON variable for the model you want to render:
-```
-
+``
 var exampleModel = {
-processes: [
-{
-name: 'Sensor Assembly',
-id: 'Sensor Assembly',
-inputs: [
-{ name: 'Sensor', id: 'Sensor' },
-{ name: 'Screw', id: 'Screw' },
-{ name: 'Case', id: 'Case' },
-],
-outputs: [{ name: 'Assembled Sensor', id: 'Assembled Sensor' }],
-resources: [
-{ name: 'Placer', id: 'Placer' },
-{ name: 'Screwer', id: 'Screwer' },
-],
-measurements: [
-{ name: 'Screwer Force', id: 'Screwer Force' },
-{ name: 'Position X', id: 'Position X' },
-{ name: 'Position Y', id: 'Position Y' },
-],
-constraints: [{ name: 'Max Screwer Force', id: 'Max Screwer Force' }],
-},
-],
+  processes: [
+    {
+      name: 'Sensor Assembly',
+      id: 'Sensor Assembly',
+      inputs: [
+        { name: 'Sensor', id: 'Sensor' },
+        { name: 'Screw', id: 'Screw' },
+        { name: 'Case', id: 'Case' },
+      ],
+      outputs: [{ name: 'Assembled Sensor', id: 'Assembled Sensor' }],
+      resources: [
+        { name: 'Placer', id: 'Placer' },
+        { name: 'Screwer', id: 'Screwer' },
+      ],
+      measurements: [
+        { name: 'Screwer Force', id: 'Screwer Force' },
+        { name: 'Position X', id: 'Position X' },
+        { name: 'Position Y', id: 'Position Y' },
+      ],
+      constraints: [{ name: 'Max Screwer Force', id: 'Max Screwer Force' }],
+    },
+  ],
 };
-´´´
+
+var highlightIds = ['Sensor Assembly', 'Screwer Force'];
+´´
 
 Create an array with ids corresponding to the ids on the model above.
 
@@ -90,6 +91,8 @@ container.appendChild(renderedModel);
 # Try it
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-wqmzhh)
+
+```
 
 ```
 
